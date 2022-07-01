@@ -1,0 +1,18 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 104 ciObject found
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/util/WeakHashMap$HashIterator
+instanceKlass sun/awt/windows/WToolkit$$Lambda$17
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass sun/awt/SunToolkit$1
+instanceKlass java/awt/KeyboardFocusManager$2
+instanceKlass java/awt/LightweightDispatcher$2
+instanceKlass javax/swing/Timer$1
+instanceKlass java/util/concurrent/locks/LockSupport
+instanceKlass javax/swing/TimerQueue$DelayedTimer
+instanceKlass java/util/concurrent/Delayed
+instanceKlass javax/swing/TimerQueue$1
+instanceKlass java/util/concurrent/BlockingQueue
+instanceKlass javax/swing/TimerQueue

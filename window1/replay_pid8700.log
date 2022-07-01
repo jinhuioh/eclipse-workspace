@@ -1,0 +1,8 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 122 ciObject found
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/util/WeakHashMap$HashIterator
+instanceKlass sun/awt/windows/WToolkit$$Lambda$18

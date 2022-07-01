@@ -1,0 +1,258 @@
+
+3월 01, 2022 15:43:09.18 NEW SESSION
+3월 01, 2022 15:43:09.18 [11804:11584:0301/154309.181:ERROR:device_event_log_impl.cc(214)] [15:43:09.181] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 01, 2022 15:43:09.18 [11804:11584:0301/154309.181:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+3월 01, 2022 15:43:09.18 [11804:11584:0301/154309.182:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+3월 01, 2022 15:43:09.18 [11804:11584:0301/154309.182:ERROR:device_event_log_impl.cc(214)] [15:43:09.181] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+3월 01, 2022 15:43:09.19 [11804:11584:0301/154309.182:ERROR:device_event_log_impl.cc(214)] [15:43:09.181] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 01, 2022 15:43:09.24 [11804:7704:0301/154309.242:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+3월 01, 2022 15:43:09.31 [11804:7704:0301/154309.315:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+3월 01, 2022 15:43:09.32 [11804:7704:0301/154309.316:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+3월 01, 2022 15:43:09.34 [11804:7704:0301/154309.340:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+3월 01, 2022 15:58:26.19 [11804:11584:0301/155826.194:ERROR:device_event_log_impl.cc(214)] [15:58:26.194] USB: usb_service_win.cc:260 Failed to get device driver name: 요소가 없습니다. (0x490)
+3월 01, 2022 18:03:07.00 [11804:1852:0301/180307.007:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+3월 01, 2022 18:03:34.86 [11804:1852:0301/180334.864:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+3월 01, 2022 21:09:21.30 [11804:1852:0301/210921.301:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+3월 02, 2022 21:08:54.52 [11804:1852:0302/210854.528:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+3월 02, 2022 21:08:54.53 [11804:10184:0302/210854.533:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 02, 2022 21:09:06.87 [11804:11584:0302/210906.874:ERROR:device_event_log_impl.cc(214)] [21:09:06.874] USB: usb_service_win.cc:260 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+4월 10, 2022 10:41:37.54 NEW SESSION
+4월 10, 2022 10:41:37.54 [14024:8396:0410/104137.543:ERROR:device_event_log_impl.cc(214)] [10:41:37.543] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 10:41:37.54 [14024:8396:0410/104137.543:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 10, 2022 10:41:37.54 [14024:8396:0410/104137.543:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 10, 2022 10:41:37.54 [14024:8396:0410/104137.543:ERROR:device_event_log_impl.cc(214)] [10:41:37.544] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 10, 2022 10:41:37.54 [14024:8396:0410/104137.543:ERROR:device_event_log_impl.cc(214)] [10:41:37.544] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 10:41:48.23 [14024:15396:0410/104148.230:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 10, 2022 10:42:34.89 [14024:764:0410/104234.892:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 10, 2022 10:43:30.44 [14024:15396:0410/104330.442:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 10, 2022 13:40:10.07 [14024:18416:0410/134010.071:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 10, 2022 13:40:34.87 [14024:18416:0410/134034.877:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 10, 2022 13:41:28.97 [14024:18416:0410/134128.975:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 10, 2022 13:42:07.32 [14024:18416:0410/134207.321:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+4월 10, 2022 14:41:46.33 [3576:16604:0410/144146.333:ERROR:device_event_log_impl.cc(214)] [14:41:46.333] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 14:41:46.33 [3576:16604:0410/144146.333:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 10, 2022 14:41:46.33 [3576:16604:0410/144146.333:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 10, 2022 14:41:46.33 [3576:16604:0410/144146.333:ERROR:device_event_log_impl.cc(214)] [14:41:46.333] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 10, 2022 14:41:46.33 [3576:16604:0410/144146.333:ERROR:device_event_log_impl.cc(214)] [14:41:46.333] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 14:42:43.18 [3576:8400:0410/144243.181:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 10, 2022 16:32:01.22 [4644:9632:0410/163201.223:ERROR:device_event_log_impl.cc(214)] [16:32:01.223] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 16:32:01.22 [4644:9632:0410/163201.223:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 10, 2022 16:32:01.22 [4644:9632:0410/163201.223:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 10, 2022 16:32:01.22 [4644:9632:0410/163201.223:ERROR:device_event_log_impl.cc(214)] [16:32:01.223] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 10, 2022 16:32:01.22 [4644:9632:0410/163201.223:ERROR:device_event_log_impl.cc(214)] [16:32:01.223] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 16:32:57.52 [4644:12764:0410/163257.523:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 10, 2022 18:52:44.77 [4644:12644:0410/185244.777:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+4월 10, 2022 18:52:45.29 [4644:8104:0410/185245.298:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 10, 2022 18:53:13.77 [4644:8104:0410/185313.770:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 10, 2022 19:00:59.27 [10976:17556:0410/190059.278:ERROR:device_event_log_impl.cc(214)] [19:00:59.278] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 19:00:59.28 [10976:17556:0410/190059.278:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 10, 2022 19:00:59.28 [10976:17556:0410/190059.279:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 10, 2022 19:00:59.28 [10976:17556:0410/190059.279:ERROR:device_event_log_impl.cc(214)] [19:00:59.278] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 10, 2022 19:00:59.28 [10976:17556:0410/190059.279:ERROR:device_event_log_impl.cc(214)] [19:00:59.279] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 10, 2022 19:01:56.07 [10976:10944:0410/190156.077:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 11, 2022 12:44:53.11 NEW SESSION
+4월 11, 2022 12:44:53.11 [13184:5672:0411/124453.102:ERROR:device_event_log_impl.cc(214)] [12:44:53.102] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 11, 2022 12:44:53.12 [13184:5672:0411/124453.102:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 11, 2022 12:44:53.12 [13184:5672:0411/124453.102:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 11, 2022 12:44:53.12 [13184:5672:0411/124453.102:ERROR:device_event_log_impl.cc(214)] [12:44:53.102] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 11, 2022 12:44:53.13 [13184:5672:0411/124453.103:ERROR:device_event_log_impl.cc(214)] [12:44:53.103] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 11, 2022 12:45:49.94 [13184:5400:0411/124549.949:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 11, 2022 19:42:00.34 NEW SESSION
+4월 11, 2022 19:42:00.34 [4696:10836:0411/194200.333:ERROR:device_event_log_impl.cc(214)] [19:42:00.333] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 11, 2022 19:42:00.34 [4696:10836:0411/194200.333:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 11, 2022 19:42:00.34 [4696:10836:0411/194200.334:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 11, 2022 19:42:00.35 [4696:10836:0411/194200.335:ERROR:device_event_log_impl.cc(214)] [19:42:00.334] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 11, 2022 19:42:00.35 [4696:10836:0411/194200.335:ERROR:device_event_log_impl.cc(214)] [19:42:00.335] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 11, 2022 19:42:56.89 [4696:13580:0411/194256.890:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 12, 2022 09:35:13.73 NEW SESSION
+4월 12, 2022 09:35:13.73 [18356:12308:0412/093513.729:ERROR:device_event_log_impl.cc(214)] [09:35:13.729] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 09:35:13.74 [18356:12308:0412/093513.729:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 12, 2022 09:35:13.74 [18356:12308:0412/093513.729:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 12, 2022 09:35:13.74 [18356:12308:0412/093513.731:ERROR:device_event_log_impl.cc(214)] [09:35:13.730] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 12, 2022 09:35:13.75 [18356:12308:0412/093513.731:ERROR:device_event_log_impl.cc(214)] [09:35:13.730] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 09:36:52.17 [15172:8704:0412/093652.174:ERROR:device_event_log_impl.cc(214)] [09:36:52.173] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 09:36:52.17 [15172:8704:0412/093652.174:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 12, 2022 09:36:52.17 [15172:8704:0412/093652.174:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 12, 2022 09:36:52.18 [15172:8704:0412/093652.174:ERROR:device_event_log_impl.cc(214)] [09:36:52.174] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 12, 2022 09:36:52.18 [15172:8704:0412/093652.175:ERROR:device_event_log_impl.cc(214)] [09:36:52.174] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 09:37:37.16 기존 브라우저 세션에서 여는 중입니다.
+4월 12, 2022 09:37:39.51 [12528:16812:0412/093739.513:ERROR:device_event_log_impl.cc(214)] [09:37:39.514] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 09:37:39.51 [12528:16812:0412/093739.513:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 12, 2022 09:37:39.52 [12528:16812:0412/093739.515:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 12, 2022 09:37:39.52 [12528:16812:0412/093739.515:ERROR:device_event_log_impl.cc(214)] [09:37:39.515] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 12, 2022 09:37:39.52 [12528:16812:0412/093739.516:ERROR:device_event_log_impl.cc(214)] [09:37:39.516] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 13:05:44.82 [7072:6988:0412/130544.823:ERROR:device_event_log_impl.cc(214)] [13:05:44.833] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 13:05:44.84 [7072:6988:0412/130544.823:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 12, 2022 13:05:44.84 [7072:6988:0412/130544.823:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 12, 2022 13:05:44.84 [7072:6988:0412/130544.823:ERROR:device_event_log_impl.cc(214)] [13:05:44.834] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 12, 2022 13:05:44.84 [7072:6988:0412/130544.823:ERROR:device_event_log_impl.cc(214)] [13:05:44.835] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 13:06:15.73 [7072:11400:0412/130615.732:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 12, 2022 13:06:41.98 [7072:15796:0412/130641.984:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 12, 2022 13:12:16.80 [7072:5340:0412/131216.796:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 12, 2022 13:14:26.81 [7072:5340:0412/131426.817:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 12, 2022 13:29:50.08 [7072:5340:0412/132950.085:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 12, 2022 13:37:20.07 [7072:760:0412/133720.072:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 12, 2022 14:36:13.32 [7072:5340:0412/143613.320:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 12, 2022 14:36:34.39 [7072:5340:0412/143634.391:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 12, 2022 14:36:45.49 [7072:6988:0412/143645.495:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+4월 12, 2022 14:37:24.29 [7072:5340:0412/143724.290:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+4월 12, 2022 15:37:24.41 [7072:2460:0412/153724.414:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+4월 12, 2022 16:00:05.52 NEW SESSION
+4월 12, 2022 16:00:05.52 [15900:8984:0412/160005.524:ERROR:device_event_log_impl.cc(214)] [16:00:05.524] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 16:00:05.53 [15900:8984:0412/160005.524:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 12, 2022 16:00:05.53 [15900:8984:0412/160005.524:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 12, 2022 16:00:05.53 [15900:8984:0412/160005.524:ERROR:device_event_log_impl.cc(214)] [16:00:05.525] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 12, 2022 16:00:05.53 [15900:8984:0412/160005.524:ERROR:device_event_log_impl.cc(214)] [16:00:05.525] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 16:01:00.72 [15900:1452:0412/160100.720:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 12, 2022 16:15:28.09 [15900:17020:0412/161528.091:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 12, 2022 16:48:30.34 [13652:14612:0412/164830.344:ERROR:device_event_log_impl.cc(214)] [16:48:30.343] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 16:48:30.34 [13652:14612:0412/164830.344:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 12, 2022 16:48:30.34 [13652:14612:0412/164830.345:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 12, 2022 16:48:30.34 [13652:14612:0412/164830.345:ERROR:device_event_log_impl.cc(214)] [16:48:30.344] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 12, 2022 16:48:30.35 [13652:14612:0412/164830.345:ERROR:device_event_log_impl.cc(214)] [16:48:30.344] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 12, 2022 16:49:26.81 [13652:8048:0412/164926.811:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 13, 2022 14:53:51.89 NEW SESSION
+4월 13, 2022 14:53:51.89 [10412:12488:0413/145351.893:ERROR:device_event_log_impl.cc(214)] [14:53:51.893] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 14:53:51.89 [10412:12488:0413/145351.893:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 14:53:51.89 [10412:12488:0413/145351.893:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 14:53:51.90 [10412:12488:0413/145351.893:ERROR:device_event_log_impl.cc(214)] [14:53:51.893] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 14:53:51.90 [10412:12488:0413/145351.893:ERROR:device_event_log_impl.cc(214)] [14:53:51.893] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 14:54:48.15 [10412:9520:0413/145448.155:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 13, 2022 15:13:57.22 [10412:17860:0413/151357.224:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 13, 2022 15:45:05.79 [3736:12912:0413/154505.789:ERROR:device_event_log_impl.cc(214)] [15:45:05.789] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 15:45:05.79 [3736:12912:0413/154505.789:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 15:45:05.79 [3736:12912:0413/154505.789:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 15:45:05.79 [3736:12912:0413/154505.789:ERROR:device_event_log_impl.cc(214)] [15:45:05.789] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 15:45:05.79 [3736:12912:0413/154505.789:ERROR:device_event_log_impl.cc(214)] [15:45:05.789] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 15:46:02.36 [3736:2364:0413/154602.367:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 13, 2022 15:49:27.88 [3736:18076:0413/154927.887:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 13, 2022 16:02:57.59 [18664:13652:0413/160257.589:ERROR:device_event_log_impl.cc(214)] [16:02:57.589] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 16:02:57.59 [18664:13652:0413/160257.589:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 16:02:57.59 [18664:13652:0413/160257.590:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 16:02:57.59 [18664:13652:0413/160257.590:ERROR:device_event_log_impl.cc(214)] [16:02:57.590] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 16:02:57.59 [18664:13652:0413/160257.590:ERROR:device_event_log_impl.cc(214)] [16:02:57.590] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 16:02:59.63 [18664:17196:0413/160259.633:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 13, 2022 16:03:54.04 [18664:5608:0413/160354.045:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 13, 2022 16:14:01.35 [18664:16368:0413/161401.357:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 13, 2022 16:41:05.94 [18664:9744:0413/164105.941:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 13, 2022 17:19:06.66 [16960:15068:0413/171906.664:ERROR:device_event_log_impl.cc(214)] [17:19:06.664] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:19:06.66 [16960:15068:0413/171906.664:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 17:19:06.66 [16960:15068:0413/171906.665:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 17:19:06.67 [16960:15068:0413/171906.665:ERROR:device_event_log_impl.cc(214)] [17:19:06.664] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 17:19:06.67 [16960:15068:0413/171906.665:ERROR:device_event_log_impl.cc(214)] [17:19:06.665] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:20:03.68 [16960:15256:0413/172003.687:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 13, 2022 17:21:41.31 [12884:948:0413/172141.309:ERROR:device_event_log_impl.cc(214)] [17:21:41.309] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:21:41.31 [12884:948:0413/172141.309:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 17:21:41.31 [12884:948:0413/172141.310:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 17:21:41.31 [12884:948:0413/172141.310:ERROR:device_event_log_impl.cc(214)] [17:21:41.310] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 17:21:41.32 [12884:948:0413/172141.310:ERROR:device_event_log_impl.cc(214)] [17:21:41.310] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:22:21.99 [9480:11404:0413/172221.996:ERROR:device_event_log_impl.cc(214)] [17:22:21.996] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:22:21.99 [9480:11404:0413/172221.996:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 17:22:21.99 [9480:11404:0413/172221.996:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 17:22:21.99 [9480:11404:0413/172221.996:ERROR:device_event_log_impl.cc(214)] [17:22:21.997] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 17:22:21.99 [9480:11404:0413/172221.997:ERROR:device_event_log_impl.cc(214)] [17:22:21.997] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:35:24.03 [14892:3488:0413/173524.037:ERROR:device_event_log_impl.cc(214)] [17:35:24.037] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:35:24.03 [14892:3488:0413/173524.037:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 17:35:24.03 [14892:3488:0413/173524.037:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 17:35:24.04 [14892:3488:0413/173524.037:ERROR:device_event_log_impl.cc(214)] [17:35:24.037] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 17:35:24.04 [14892:3488:0413/173524.037:ERROR:device_event_log_impl.cc(214)] [17:35:24.037] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:36:20.66 [14892:8328:0413/173620.666:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 13, 2022 17:38:18.01 [16892:7764:0413/173818.010:ERROR:device_event_log_impl.cc(214)] [17:38:18.009] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:38:18.01 [16892:7764:0413/173818.010:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 17:38:18.01 [16892:7764:0413/173818.010:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 17:38:18.01 [16892:7764:0413/173818.010:ERROR:device_event_log_impl.cc(214)] [17:38:18.009] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 17:38:18.01 [16892:7764:0413/173818.010:ERROR:device_event_log_impl.cc(214)] [17:38:18.010] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:39:14.43 [16892:16620:0413/173914.438:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 13, 2022 17:39:53.61 [16892:5488:0413/173953.612:ERROR:database.cc(1782)] Passwords SQLite error: code 2067 errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for, date_password_modified) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+4월 13, 2022 17:48:01.71 [19092:13992:0413/174801.712:ERROR:device_event_log_impl.cc(214)] [17:48:01.712] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:48:01.71 [19092:13992:0413/174801.712:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 17:48:01.71 [19092:13992:0413/174801.712:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 17:48:01.72 [19092:13992:0413/174801.712:ERROR:device_event_log_impl.cc(214)] [17:48:01.713] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 17:48:01.72 [19092:13992:0413/174801.712:ERROR:device_event_log_impl.cc(214)] [17:48:01.713] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 17:48:57.88 [19092:19300:0413/174857.886:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 13, 2022 18:06:46.34 NEW SESSION
+4월 13, 2022 18:06:46.34 [19444:14048:0413/180646.340:ERROR:device_event_log_impl.cc(214)] [18:06:46.340] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 18:06:46.35 [19444:14048:0413/180646.340:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 18:06:46.35 [19444:14048:0413/180646.340:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 18:06:46.35 [19444:14048:0413/180646.340:ERROR:device_event_log_impl.cc(214)] [18:06:46.341] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 18:06:46.35 [19444:14048:0413/180646.341:ERROR:device_event_log_impl.cc(214)] [18:06:46.341] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 18:23:28.22 [916:5804:0413/182328.223:ERROR:device_event_log_impl.cc(214)] [18:23:28.222] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 18:23:28.22 [916:5804:0413/182328.223:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 18:23:28.22 [916:5804:0413/182328.223:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 18:23:28.22 [916:5804:0413/182328.223:ERROR:device_event_log_impl.cc(214)] [18:23:28.223] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 18:23:28.22 [916:5804:0413/182328.223:ERROR:device_event_log_impl.cc(214)] [18:23:28.223] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 18:24:02.85 [12768:12656:0413/182402.853:ERROR:device_event_log_impl.cc(214)] [18:24:02.854] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 13, 2022 18:24:02.85 [12768:12656:0413/182402.854:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 13, 2022 18:24:02.85 [12768:12656:0413/182402.854:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 13, 2022 18:24:02.85 [12768:12656:0413/182402.854:ERROR:device_event_log_impl.cc(214)] [18:24:02.855] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 13, 2022 18:24:02.85 [12768:12656:0413/182402.854:ERROR:device_event_log_impl.cc(214)] [18:24:02.855] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+4월 15, 2022 14:42:14.98 NEW SESSION
+4월 15, 2022 14:42:14.98 [6736:17324:0415/144214.980:ERROR:device_event_log_impl.cc(214)] [14:42:14.980] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 15, 2022 14:42:14.98 [6736:17324:0415/144214.980:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 15, 2022 14:42:14.98 [6736:17324:0415/144214.980:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 15, 2022 14:42:14.98 [6736:17324:0415/144214.980:ERROR:device_event_log_impl.cc(214)] [14:42:14.980] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 15, 2022 14:42:14.99 [6736:17324:0415/144214.981:ERROR:device_event_log_impl.cc(214)] [14:42:14.980] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+4월 15, 2022 14:45:04.18 NEW SESSION
+4월 15, 2022 14:45:04.18 [15680:10232:0415/144504.184:ERROR:device_event_log_impl.cc(214)] [14:45:04.184] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 15, 2022 14:45:04.18 [15680:10232:0415/144504.184:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 15, 2022 14:45:04.18 [15680:10232:0415/144504.184:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 15, 2022 14:45:04.18 [15680:10232:0415/144504.184:ERROR:device_event_log_impl.cc(214)] [14:45:04.185] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 15, 2022 14:45:04.19 [15680:10232:0415/144504.185:ERROR:device_event_log_impl.cc(214)] [14:45:04.185] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 15:52:18.63 [8644:15080:0416/155218.629:ERROR:device_event_log_impl.cc(214)] [15:52:18.630] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 15:52:18.63 [8644:15080:0416/155218.629:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 16, 2022 15:52:18.63 [8644:15080:0416/155218.630:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 16, 2022 15:52:18.63 [8644:15080:0416/155218.630:ERROR:device_event_log_impl.cc(214)] [15:52:18.630] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 16, 2022 15:52:18.63 [8644:15080:0416/155218.630:ERROR:device_event_log_impl.cc(214)] [15:52:18.630] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 15:53:14.89 [8644:12712:0416/155314.893:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+4월 16, 2022 20:50:43.71 [15328:808:0416/205043.714:ERROR:device_event_log_impl.cc(214)] [20:50:43.713] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 20:50:43.71 [15328:808:0416/205043.714:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 16, 2022 20:50:43.71 [15328:808:0416/205043.714:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 16, 2022 20:50:43.71 [15328:808:0416/205043.715:ERROR:device_event_log_impl.cc(214)] [20:50:43.714] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 16, 2022 20:50:43.71 [15328:808:0416/205043.715:ERROR:device_event_log_impl.cc(214)] [20:50:43.714] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 20:50:52.47 [10172:13764:0416/205052.470:ERROR:device_event_log_impl.cc(214)] [20:50:52.470] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 20:50:52.47 [10172:13764:0416/205052.470:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 16, 2022 20:50:52.47 [10172:13764:0416/205052.471:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 16, 2022 20:50:52.47 [10172:13764:0416/205052.471:ERROR:device_event_log_impl.cc(214)] [20:50:52.471] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 16, 2022 20:50:52.47 [10172:13764:0416/205052.471:ERROR:device_event_log_impl.cc(214)] [20:50:52.471] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 16, 2022 20:51:49.15 [10172:16032:0416/205149.151:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 20, 2022 20:11:55.38 NEW SESSION
+4월 20, 2022 20:11:55.38 [12292:13672:0420/201155.376:ERROR:device_event_log_impl.cc(214)] [20:11:55.376] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 20, 2022 20:11:55.38 [12292:13672:0420/201155.377:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 20, 2022 20:11:55.38 [12292:13672:0420/201155.377:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 20, 2022 20:11:55.39 [12292:13672:0420/201155.377:ERROR:device_event_log_impl.cc(214)] [20:11:55.376] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 20, 2022 20:11:55.39 [12292:13672:0420/201155.377:ERROR:device_event_log_impl.cc(214)] [20:11:55.377] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 20, 2022 20:12:52.22 [12292:7844:0420/201252.224:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 20, 2022 23:21:44.68 NEW SESSION
+4월 20, 2022 23:21:44.68 [12368:6844:0420/232144.679:ERROR:device_event_log_impl.cc(214)] [23:21:44.678] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 20, 2022 23:21:44.68 [12368:6844:0420/232144.679:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 20, 2022 23:21:44.68 [12368:6844:0420/232144.679:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 20, 2022 23:21:44.68 [12368:6844:0420/232144.679:ERROR:device_event_log_impl.cc(214)] [23:21:44.678] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 20, 2022 23:21:44.68 [12368:6844:0420/232144.679:ERROR:device_event_log_impl.cc(214)] [23:21:44.678] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 20, 2022 23:22:42.00 [12368:8508:0420/232242.000:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 21, 2022 21:24:03.04 NEW SESSION
+4월 21, 2022 21:24:03.04 [9380:11428:0421/212403.039:ERROR:device_event_log_impl.cc(214)] [21:24:03.039] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 21, 2022 21:24:03.04 [9380:11428:0421/212403.039:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 21, 2022 21:24:03.04 [9380:11428:0421/212403.039:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 21, 2022 21:24:03.04 [9380:11428:0421/212403.039:ERROR:device_event_log_impl.cc(214)] [21:24:03.039] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 21, 2022 21:24:03.04 [9380:11428:0421/212403.040:ERROR:device_event_log_impl.cc(214)] [21:24:03.040] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 21, 2022 21:24:59.16 [9380:10608:0421/212459.163:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+4월 23, 2022 22:21:23.07 NEW SESSION
+4월 23, 2022 22:21:23.07 [11524:16448:0423/222123.075:ERROR:device_event_log_impl.cc(214)] [22:21:23.067] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 23, 2022 22:21:23.07 [11524:16448:0423/222123.075:ERROR:usb_descriptors.cc(141)] Failed to read length for configuration 1.
+4월 23, 2022 22:21:23.08 [11524:16448:0423/222123.075:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 2, got 1.
+4월 23, 2022 22:21:23.08 [11524:16448:0423/222123.075:ERROR:device_event_log_impl.cc(214)] [22:21:23.068] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_10a5&pid_0007#5&17a92b64&0&8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+4월 23, 2022 22:21:23.08 [11524:16448:0423/222123.075:ERROR:device_event_log_impl.cc(214)] [22:21:23.068] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 23, 2022 22:22:19.40 [11524:1544:0423/222219.405:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

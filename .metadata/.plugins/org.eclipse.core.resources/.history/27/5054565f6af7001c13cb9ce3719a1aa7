@@ -1,0 +1,6 @@
+package test1;
+
+public class test11 {
+	print("Hellow word!")
+}
+

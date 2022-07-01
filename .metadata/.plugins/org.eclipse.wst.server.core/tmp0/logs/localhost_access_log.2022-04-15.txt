@@ -1,0 +1,10 @@
+127.0.0.1 - - [15/Apr/2022:14:41:12 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:42:16 +0900] "GET /ShoppingMall/member.jsp HTTP/1.1" 200 3110
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:42:16 +0900] "GET /ShoppingMall/resources/css/project.css HTTP/1.1" 200 124
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:42:17 +0900] "GET /ShoppingMall/resources/js/jquery-3.4.1.js HTTP/1.1" 200 88147
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:42:17 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [15/Apr/2022:14:44:59 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:45:02 +0900] "GET /ShoppingMall/member.jsp HTTP/1.1" 200 3110
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:45:02 +0900] "GET /ShoppingMall/resources/js/jquery-3.4.1.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:45:02 +0900] "GET /ShoppingMall/resources/css/project.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:14:45:02 +0900] "GET /favicon.ico HTTP/1.1" 404 818
