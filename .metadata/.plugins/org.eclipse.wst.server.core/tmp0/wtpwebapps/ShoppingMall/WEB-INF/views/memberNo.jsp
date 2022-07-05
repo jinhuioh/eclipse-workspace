@@ -44,7 +44,7 @@
 <div id="total">
 		<div id="top">
 			<jsp:include page="../../top.jsp"></jsp:include>
-		</div style="margin-left: 500px;">
+		</div>
 		<div id="center">
 			<br>
 			<p>수정에 문제가 있습니다.</p>
